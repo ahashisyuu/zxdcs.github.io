@@ -7,27 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Xiaodong Zhang</copyright>
-    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://zxdcs.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Bidirectional Recurrent Convolutional Neural Network for Relation Classification</title>
+      <link>https://zxdcs.github.io/publication/entity_relation/</link>
+      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zxdcs.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://zxdcs.github.io/publication/entity_relation/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://zxdcs.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding</title>
+      <link>https://zxdcs.github.io/publication/spoken_language_understanding/</link>
+      <pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zxdcs.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://zxdcs.github.io/publication/spoken_language_understanding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implicit Discourse Relation Classification via Multi-Task Neural Networks</title>
+      <link>https://zxdcs.github.io/publication/discourse_relation/</link>
+      <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/discourse_relation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Negative Emotion Recognition in Spoken Dialogs</title>
+      <link>https://zxdcs.github.io/publication/negative_emotion/</link>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/negative_emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Fast and Effective Method for Clustering Large-Scale Chinese Question Dataset</title>
+      <link>https://zxdcs.github.io/publication/clustering_question/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/clustering_question/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -193,7 +193,7 @@ sudo make install
 <p>crf_learn: error while loading shared libraries: libcrfpp.so.0: cannot open shared object file: No such file or directory</p>
 </blockquote>
 
-<p>出现这种情况的原因是找不到libcrfpp.so.0等库文件，解决方案为：</p>
+<p>出现这种情况的原因是找不到libcrfpp.so.0等库文件，解决方案一为：</p>
 
 <ol>
 <li>修改/etc/ld.so.conf文件</li>
@@ -201,7 +201,14 @@ sudo make install
 <li>执行/sbin/ldconfig -v，刷新LIB库</li>
 </ol>
 
-<p>再运行crf_learn就会出现正常的提示信息了。</p>
+<p>解决方案二为建立以下符号链接：</p>
+
+<pre><code class="language-shell">ln -s /usr/local/lib/libcrfpp.a /usr/lib/libcrfpp.a
+ln -s /usr/local/lib/libcrfpp.so /usr/lib/libcrfpp.so
+ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
+</code></pre>
+
+<p>再运行crf_learn就会出现正常的提示信息了。即使一开始运行正常也要进行这步操作，因为后续Java接口也需要这些库文件。</p>
 
 <h2 id="java接口配置">Java接口配置</h2>
 
@@ -210,7 +217,7 @@ sudo make install
 <pre><code class="language-shell">sudo apt-get install swig
 </code></pre>
 
-<p>然后进入解压路径中的swig目录，执行make命令；接着进入java目录，执行make命令，得到libCRFPP.so和CRFPP.jar两个文件。</p>
+<p>然后进入解压路径中的swig目录，执行make命令；接着进入java目录，修改Makefile文件，INCLUDE=这一项修改为系统所装Java路径下的include文件夹（该文件夹下包含jni.h头文件），然后执行make命令，得到libCRFPP.so和CRFPP.jar两个文件。</p>
 
 <p>在IDE中建立一个项目，把CRFPP.jar包导入，libCRFPP.so加到LD_LIBRARY_PATH中，参照java目录里的test.java文件即可编写测试代码。</p>
 

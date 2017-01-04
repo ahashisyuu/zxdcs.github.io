@@ -11,10 +11,10 @@
     
     <item>
       <title>Java调用CRF&#43;&#43;</title>
-      <link>https://zxdcs.github.io/post/crf_java/</link>
+      <link>https://zxdcs.github.io/post/16/crf_java/</link>
       <pubDate>Wed, 28 Dec 2016 15:07:12 +0800</pubDate>
       
-      <guid>https://zxdcs.github.io/post/crf_java/</guid>
+      <guid>https://zxdcs.github.io/post/16/crf_java/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34;&gt;CRF++&lt;/a&gt;是条件随机场（CRF）的主流工具包之一。它使用C++编写，通过&lt;a href=&#34;http://www.swig.org/&#34;&gt;SWIG&lt;/a&gt;提供了多种语言的接口。由于工程需求，要用Java来调用CRF++，这里记录下安装配置过程。&lt;/p&gt;

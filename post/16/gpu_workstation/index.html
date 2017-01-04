@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.17" />
+  <meta name="author" content="Xiaodong Zhang">
+  <meta name="description" content="张晓东">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://zxdcs.github.io/index.xml" type="application/rss+xml" title="Xiaodong&#39;s Homepage">
+  <link rel="feed" href="https://zxdcs.github.io/index.xml" type="application/rss+xml" title="Xiaodong&#39;s Homepage">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://zxdcs.github.io/post/16/gpu_workstation/">
+
+  
+
+  <title>深度学习工作站配置 | Xiaodong&#39;s Homepage</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Xiaodong&#39;s Homepage</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item">
+          <a href="/#top">
+            Home
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#publications">
+            Publications
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#posts">
+            Posts
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#friends">
+            Friends
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#contact">
+            Contact
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">深度学习工作站配置</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-12-04 18:03:58 &#43;0800 CST" itemprop="datePublished">
+      Sun, Dec 4, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a class="article-tag-link" href="https://zxdcs.github.io/tags/gpu">GPU</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fgpu_workstation%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e5%b7%a5%e4%bd%9c%e7%ab%99%e9%85%8d%e7%bd%ae&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fgpu_workstation%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fgpu_workstation%2f&amp;title=%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e5%b7%a5%e4%bd%9c%e7%ab%99%e9%85%8d%e7%bd%ae"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fgpu_workstation%2f&amp;title=%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e5%b7%a5%e4%bd%9c%e7%ab%99%e9%85%8d%e7%bd%ae"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e5%b7%a5%e4%bd%9c%e7%ab%99%e9%85%8d%e7%bd%ae&amp;body=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fgpu_workstation%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>前不久老师决定买一台GPU机器供组内使用，让我调研一下方案。之前组内的工作站都是买Dell的机器，但我们想插4块GPU，发现Dell卖的工作站主板都没法插4块GPU，所以这条路走不通。看了网上的一些配置，大家基本是单独买各个零部件然后组装。</p>
+
+<ul>
+<li><a href="http://cn.soulmachine.me/2016-08-13-my-deep-learning-workstation-assemble-process-note/">我的深度学习工作站攒机过程记录</a></li>
+<li><a href="https://www.zhihu.com/question/33996159">如何配置一台适用于深度学习的工作站？</a></li>
+</ul>
+
+<p>GPU想买TitanX Pascal，但国内还没上市，不好报销，就买了GTX1080，最终的配置为：</p>
+
+<table>
+<thead>
+<tr>
+<th>配件</th>
+<th>型号</th>
+<th>数量</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>机箱</td>
+<td>Corsair Carbide Air 540</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>主板</td>
+<td>Asus X99-E WS/USB 3.1</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>CPU</td>
+<td>Intel I7-6900K</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>CPU水冷</td>
+<td>Corsair H60</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>内存</td>
+<td>Kingston Fury DDR4 2400 16GB</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>显卡</td>
+<td>Inno3D GTX 1080 Founders Edition</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>EVGA 1600W G2</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>固态硬盘</td>
+<td>SAMSUNG 950 PRO 256G M.2</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>机械硬盘</td>
+<td>WD40EZRZ 4T</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+
+<p>一开始显卡选的是一款非公版的，后来发现非公版的太厚了，插不上4块，只能换成公版的。而且公版用的是涡轮风扇，多显卡时散热会好一些。</p>
+
+<p>供货商把机器运过来后，自己装了系统和深度学习的各种环境。但不幸的是机器十分不稳定，经常死机或者是程序跑着跑着崩掉，报总线错误（Bad TLP PCIe Bus Errors），困扰了好几天。最后在<a href="https://forums.geforce.com/default/topic/957456/geforce-drivers/gtx-1080-throwing-bad-tlp-pcie-bus-errors/post/4969345/#4969345">这个帖子</a>的24楼找到了解决方案，貌似是这块主板的总线电源管理有问题，按照这个改了之后机器就稳定了。</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+
+    
+    <li class="next"><a href="https://zxdcs.github.io/post/16/crf_java/">Java调用CRF&#43;&#43; <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+  
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Xiaodong Zhang &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

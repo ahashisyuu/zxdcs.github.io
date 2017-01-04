@@ -1,71 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Xiaodong&#39;s Homepage</title>
-    <link>https://zxdcs.github.io/post/index.xml</link>
-    <description>Recent content in Post-rsses on Xiaodong&#39;s Homepage</description>
+    <title>Xiaodong&#39;s Homepage</title>
+    <link>https://zxdcs.github.io/tags/gpu/index.xml</link>
+    <description>Recent content on Xiaodong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Xiaodong Zhang</copyright>
-    <lastBuildDate>Wed, 28 Dec 2016 15:07:12 +0800</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Java调用CRF&#43;&#43;</title>
-      <link>https://zxdcs.github.io/post/16/crf_java/</link>
-      <pubDate>Wed, 28 Dec 2016 15:07:12 +0800</pubDate>
-      
-      <guid>https://zxdcs.github.io/post/16/crf_java/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34;&gt;CRF++&lt;/a&gt;是条件随机场（CRF）的主流工具包之一。它使用C++编写，通过&lt;a href=&#34;http://www.swig.org/&#34;&gt;SWIG&lt;/a&gt;提供了多种语言的接口。由于工程需求，要用Java来调用CRF++，这里记录下安装配置过程。&lt;/p&gt;
-
-&lt;h2 id=&#34;crf-安装&#34;&gt;CRF++安装&lt;/h2&gt;
-
-&lt;p&gt;下载&lt;a href=&#34;https://drive.google.com/folderview?id=0B4y35FiV1wh7fngteFhHQUN2Y1B5eUJBNHZUemJYQV9VWlBUb3JlX0xBdWVZTWtSbVBneU0&amp;amp;usp=drive_web#list&#34;&gt;源代码&lt;/a&gt;，目前最新的版本号是0.58，下载后缀名为tar.gz的，zip的是Win平台编译好的。&lt;/p&gt;
-
-&lt;p&gt;解压后进入解压路径中，输入以下命令安装：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./configure
-make
-sudo make install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;可以使用crf_learn和crf_test两个命令来训练模型和测试，但这时如果直接运行命令会出现错误。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;crf_learn: error while loading shared libraries: libcrfpp.so.0: cannot open shared object file: No such file or directory&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;出现这种情况的原因是找不到libcrfpp.so.0等库文件，解决方案一为（貌似此方法对root用户不管用）：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;修改/etc/ld.so.conf文件&lt;/li&gt;
-&lt;li&gt;加入include /usr/local/lib&lt;/li&gt;
-&lt;li&gt;执行/sbin/ldconfig -v，刷新LIB库&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;解决方案二为建立以下符号链接：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;ln -s /usr/local/lib/libcrfpp.a /usr/lib/libcrfpp.a
-ln -s /usr/local/lib/libcrfpp.so /usr/lib/libcrfpp.so
-ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;再运行crf_learn就会出现正常的提示信息了。即使一开始运行正常也要进行这步操作，因为后续Java接口也需要这些库文件。&lt;/p&gt;
-
-&lt;h2 id=&#34;java接口配置&#34;&gt;Java接口配置&lt;/h2&gt;
-
-&lt;p&gt;首先安装SWIG&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt-get install swig
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;然后进入解压路径中的swig目录，执行make命令；接着进入java目录，修改Makefile文件，INCLUDE=这一项修改为系统所装Java路径下的include文件夹（该文件夹下包含jni.h头文件），然后执行make命令，得到libCRFPP.so和CRFPP.jar两个文件。&lt;/p&gt;
-
-&lt;p&gt;在IDE中建立一个项目，把CRFPP.jar包导入，libCRFPP.so加到LD_LIBRARY_PATH中（或者直接把它放到/usr/lib目录下），参照java目录里的test.java文件即可编写测试代码。&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>深度学习工作站配置</title>

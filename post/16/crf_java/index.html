@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.17" />
+  <meta name="author" content="Xiaodong Zhang">
+  <meta name="description" content="张晓东">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://zxdcs.github.io/index.xml" type="application/rss+xml" title="Xiaodong&#39;s Homepage">
+  <link rel="feed" href="https://zxdcs.github.io/index.xml" type="application/rss+xml" title="Xiaodong&#39;s Homepage">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://zxdcs.github.io/post/16/crf_java/">
+
+  
+
+  <title>Java调用CRF&#43;&#43; | Xiaodong&#39;s Homepage</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Xiaodong&#39;s Homepage</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item">
+          <a href="/#top">
+            Home
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#publications">
+            Publications
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#posts">
+            Posts
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#friends">
+            Friends
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/#contact">
+            Contact
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">Java调用CRF&#43;&#43;</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-12-28 15:07:12 &#43;0800 CST" itemprop="datePublished">
+      Wed, Dec 28, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a class="article-tag-link" href="https://zxdcs.github.io/tags/crf&#43;&#43;">CRF&#43;&#43;</a
+    >, 
+    
+    <a class="article-tag-link" href="https://zxdcs.github.io/tags/java">Java</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fcrf_java%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Java%e8%b0%83%e7%94%a8CRF%2b%2b&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fcrf_java%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fcrf_java%2f&amp;title=Java%e8%b0%83%e7%94%a8CRF%2b%2b"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fcrf_java%2f&amp;title=Java%e8%b0%83%e7%94%a8CRF%2b%2b"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Java%e8%b0%83%e7%94%a8CRF%2b%2b&amp;body=https%3a%2f%2fzxdcs.github.io%2fpost%2f16%2fcrf_java%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><a href="https://taku910.github.io/crfpp/">CRF++</a>是条件随机场（CRF）的主流工具包之一。它使用C++编写，通过<a href="http://www.swig.org/">SWIG</a>提供了多种语言的接口。由于工程需求，要用Java来调用CRF++，这里记录下安装配置过程。</p>
+
+<h2 id="crf-安装">CRF++安装</h2>
+
+<p>下载<a href="https://drive.google.com/folderview?id=0B4y35FiV1wh7fngteFhHQUN2Y1B5eUJBNHZUemJYQV9VWlBUb3JlX0xBdWVZTWtSbVBneU0&amp;usp=drive_web#list">源代码</a>，目前最新的版本号是0.58，下载后缀名为tar.gz的，zip的是Win平台编译好的。</p>
+
+<p>解压后进入解压路径中，输入以下命令安装：</p>
+
+<pre><code class="language-bash">./configure
+make
+sudo make install
+</code></pre>
+
+<p>可以使用crf_learn和crf_test两个命令来训练模型和测试，但这时如果直接运行命令会出现错误。</p>
+
+<blockquote>
+<p>crf_learn: error while loading shared libraries: libcrfpp.so.0: cannot open shared object file: No such file or directory</p>
+</blockquote>
+
+<p>出现这种情况的原因是找不到libcrfpp.so.0等库文件，解决方案一为（貌似此方法对root用户不管用）：</p>
+
+<ol>
+<li>修改/etc/ld.so.conf文件</li>
+<li>加入include /usr/local/lib</li>
+<li>执行/sbin/ldconfig -v，刷新LIB库</li>
+</ol>
+
+<p>解决方案二为建立以下符号链接：</p>
+
+<pre><code class="language-shell">ln -s /usr/local/lib/libcrfpp.a /usr/lib/libcrfpp.a
+ln -s /usr/local/lib/libcrfpp.so /usr/lib/libcrfpp.so
+ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
+</code></pre>
+
+<p>再运行crf_learn就会出现正常的提示信息了。即使一开始运行正常也要进行这步操作，因为后续Java接口也需要这些库文件。</p>
+
+<h2 id="java接口配置">Java接口配置</h2>
+
+<p>首先安装SWIG</p>
+
+<pre><code class="language-shell">sudo apt-get install swig
+</code></pre>
+
+<p>然后进入解压路径中的swig目录，执行make命令；接着进入java目录，修改Makefile文件，INCLUDE=这一项修改为系统所装Java路径下的include文件夹（该文件夹下包含jni.h头文件），然后执行make命令，得到libCRFPP.so和CRFPP.jar两个文件。</p>
+
+<p>在IDE中建立一个项目，把CRFPP.jar包导入，libCRFPP.so加到LD_LIBRARY_PATH中（或者直接把它放到/usr/lib目录下），参照java目录里的test.java文件即可编写测试代码。</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://zxdcs.github.io/post/16/gpu_workstation/"><span
+      aria-hidden="true">&larr;</span> 深度学习工作站配置</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+  
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Xiaodong Zhang &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

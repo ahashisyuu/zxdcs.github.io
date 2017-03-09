@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaodong&#39;s Homepage</title>
+    <link>https://zxdcs.github.io/tags/machine-learning/index.xml</link>
+    <description>Recent content on Xiaodong&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Xiaodong Zhang</copyright>
+    <atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>机器学习工具包收集</title>
+      <link>https://zxdcs.github.io/post/17/ml_toolkit/</link>
+      <pubDate>Thu, 09 Mar 2017 14:09:47 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/post/17/ml_toolkit/</guid>
+      <description>
+
+&lt;h2 id=&#34;svm&#34;&gt;SVM&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.csie.ntu.edu.tw/~cjlin/libsvm/&#34;&gt;LIBSVM&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;crf&#34;&gt;CRF&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34;&gt;CRF++&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;deep-learning&#34;&gt;Deep Learning&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/&#34;&gt;TensorFlow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://deeplearning.net/software/theano/&#34;&gt;Theano&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pytorch.org/&#34;&gt;PyTorch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mxnet.io/&#34;&gt;MXNet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://lasagne.readthedocs.io/en/latest/&#34;&gt;Lasagne&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://keras.io/&#34;&gt;Keras&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

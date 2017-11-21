@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xiaodong&#39;s Homepage</title>
-    <link>https://zxdcs.github.io/index.xml</link>
-    <description>Recent content on Xiaodong&#39;s Homepage</description>
+    <title>Xiaodong&#39;s Homepage on Xiaodong&#39;s Homepage</title>
+    <link>https://zxdcs.github.io/</link>
+    <description>Recent content in Xiaodong&#39;s Homepage on Xiaodong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Xiaodong Zhang</copyright>
-    <lastBuildDate>Thu, 09 Mar 2017 14:09:47 +0800</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2017 Xiaodong Zhang</copyright>
+    <lastBuildDate>Wed, 26 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Duplicate Question Identification by Integrating FrameNet with Neural Networks</title>
+      <link>https://zxdcs.github.io/publication/duplicate_question/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/duplicate_question/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cascading Multiway Attentions for Document-Level Sentiment Classification</title>
+      <link>https://zxdcs.github.io/publication/document_sentiment/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/document_sentiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Attention Networks for Aspect-Level Sentiment Classification</title>
+      <link>https://zxdcs.github.io/publication/aspect_sentiment/</link>
+      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/aspect_sentiment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>机器学习工具包收集</title>
@@ -20,25 +47,25 @@
 
 &lt;h2 id=&#34;svm&#34;&gt;SVM&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.csie.ntu.edu.tw/~cjlin/libsvm/&#34;&gt;LIBSVM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.csie.ntu.edu.tw/~cjlin/libsvm/&#34; target=&#34;_blank&#34;&gt;LIBSVM&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;crf&#34;&gt;CRF&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34;&gt;CRF++&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34; target=&#34;_blank&#34;&gt;CRF++&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;deep-learning&#34;&gt;Deep Learning&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/&#34;&gt;TensorFlow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/&#34; target=&#34;_blank&#34;&gt;TensorFlow&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://deeplearning.net/software/theano/&#34;&gt;Theano&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://deeplearning.net/software/theano/&#34; target=&#34;_blank&#34;&gt;Theano&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://pytorch.org/&#34;&gt;PyTorch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pytorch.org/&#34; target=&#34;_blank&#34;&gt;PyTorch&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://mxnet.io/&#34;&gt;MXNet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mxnet.io/&#34; target=&#34;_blank&#34;&gt;MXNet&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://lasagne.readthedocs.io/en/latest/&#34;&gt;Lasagne&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lasagne.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;Lasagne&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://keras.io/&#34;&gt;Keras&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://keras.io/&#34; target=&#34;_blank&#34;&gt;Keras&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -80,11 +107,11 @@ os.path.expanduser(&#39;~&#39;)
       <guid>https://zxdcs.github.io/post/16/crf_java/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34;&gt;CRF++&lt;/a&gt;是条件随机场（CRF）的主流工具包之一。它使用C++编写，通过&lt;a href=&#34;http://www.swig.org/&#34;&gt;SWIG&lt;/a&gt;提供了多种语言的接口。由于工程需求，要用Java来调用CRF++，这里记录下安装配置过程。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://taku910.github.io/crfpp/&#34; target=&#34;_blank&#34;&gt;CRF++&lt;/a&gt;是条件随机场（CRF）的主流工具包之一。它使用C++编写，通过&lt;a href=&#34;http://www.swig.org/&#34; target=&#34;_blank&#34;&gt;SWIG&lt;/a&gt;提供了多种语言的接口。由于工程需求，要用Java来调用CRF++，这里记录下安装配置过程。&lt;/p&gt;
 
 &lt;h2 id=&#34;crf-安装&#34;&gt;CRF++安装&lt;/h2&gt;
 
-&lt;p&gt;下载&lt;a href=&#34;https://drive.google.com/folderview?id=0B4y35FiV1wh7fngteFhHQUN2Y1B5eUJBNHZUemJYQV9VWlBUb3JlX0xBdWVZTWtSbVBneU0&amp;amp;usp=drive_web#list&#34;&gt;源代码&lt;/a&gt;，目前最新的版本号是0.58，下载后缀名为tar.gz的，zip的是Win平台编译好的。&lt;/p&gt;
+&lt;p&gt;下载&lt;a href=&#34;https://drive.google.com/folderview?id=0B4y35FiV1wh7fngteFhHQUN2Y1B5eUJBNHZUemJYQV9VWlBUb3JlX0xBdWVZTWtSbVBneU0&amp;amp;usp=drive_web#list&#34; target=&#34;_blank&#34;&gt;源代码&lt;/a&gt;，目前最新的版本号是0.58，下载后缀名为tar.gz的，zip的是Win平台编译好的。&lt;/p&gt;
 
 &lt;p&gt;解压后进入解压路径中，输入以下命令安装：&lt;/p&gt;
 
@@ -138,8 +165,8 @@ ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
       <description>&lt;p&gt;前不久老师决定买一台GPU机器供组内使用，让我调研一下方案。之前组内的工作站都是买Dell的机器，但我们想插4块GPU，发现Dell卖的工作站主板都没法插4块GPU，所以这条路走不通。看了网上的一些配置，大家基本是单独买各个零部件然后组装。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://cn.soulmachine.me/2016-08-13-my-deep-learning-workstation-assemble-process-note/&#34;&gt;我的深度学习工作站攒机过程记录&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/33996159&#34;&gt;如何配置一台适用于深度学习的工作站？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cn.soulmachine.me/2016-08-13-my-deep-learning-workstation-assemble-process-note/&#34; target=&#34;_blank&#34;&gt;我的深度学习工作站攒机过程记录&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/33996159&#34; target=&#34;_blank&#34;&gt;如何配置一台适用于深度学习的工作站？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;GPU想买TitanX Pascal，但国内还没上市，不好报销，就买了GTX1080，最终的配置为：&lt;/p&gt;
@@ -212,7 +239,7 @@ ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
 
 &lt;p&gt;一开始显卡选的是一款非公版的，后来发现非公版的太厚了，插不上4块，只能换成公版的。而且公版用的是涡轮风扇，多显卡时散热会好一些。&lt;/p&gt;
 
-&lt;p&gt;供货商把机器运过来后，自己装了系统和深度学习的各种环境。但不幸的是机器十分不稳定，经常死机或者是程序跑着跑着崩掉，报总线错误（Bad TLP PCIe Bus Errors），困扰了好几天。最后在&lt;a href=&#34;https://forums.geforce.com/default/topic/957456/geforce-drivers/gtx-1080-throwing-bad-tlp-pcie-bus-errors/post/4969345/#4969345&#34;&gt;这个帖子&lt;/a&gt;的24楼找到了解决方案，貌似是这块主板的总线电源管理有问题，按照这个改了之后机器就稳定了。&lt;/p&gt;
+&lt;p&gt;供货商把机器运过来后，自己装了系统和深度学习的各种环境。但不幸的是机器十分不稳定，经常死机或者是程序跑着跑着崩掉，报总线错误（Bad TLP PCIe Bus Errors），困扰了好几天。最后在&lt;a href=&#34;https://forums.geforce.com/default/topic/957456/geforce-drivers/gtx-1080-throwing-bad-tlp-pcie-bus-errors/post/4969345/#4969345&#34; target=&#34;_blank&#34;&gt;这个帖子&lt;/a&gt;的24楼找到了解决方案，貌似是这块主板的总线电源管理有问题，按照这个改了之后机器就稳定了。&lt;/p&gt;
 </description>
     </item>
     

@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication-rsses on Xiaodong&#39;s Homepage</title>
-    <link>https://zxdcs.github.io/publication/index.xml</link>
-    <description>Recent content in Publication-rsses on Xiaodong&#39;s Homepage</description>
+    <title>Publications on Xiaodong&#39;s Homepage</title>
+    <link>https://zxdcs.github.io/publication/</link>
+    <description>Recent content in Publications on Xiaodong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Xiaodong Zhang</copyright>
-    <lastBuildDate>Sat, 04 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2017 Xiaodong Zhang</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Duplicate Question Identification by Integrating FrameNet with Neural Networks</title>
+      <link>https://zxdcs.github.io/publication/duplicate_question/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/duplicate_question/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cascading Multiway Attentions for Document-Level Sentiment Classification</title>
+      <link>https://zxdcs.github.io/publication/document_sentiment/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/document_sentiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Attention Networks for Aspect-Level Sentiment Classification</title>
+      <link>https://zxdcs.github.io/publication/aspect_sentiment/</link>
+      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/aspect_sentiment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Attentive Interactive Neural Networks for Answer Selection in Community Question Answering</title>

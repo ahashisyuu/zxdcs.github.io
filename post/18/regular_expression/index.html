@@ -11,7 +11,7 @@
   <meta name="description" content="Ph.D. student">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://zxdcs.github.io/post/17/python_skills/">
+  <link rel="alternate" hreflang="en-us" href="https://zxdcs.github.io/post/18/regular_expression/">
 
   
   
@@ -57,24 +57,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://zxdcs.github.io/post/17/python_skills/">
+  <link rel="canonical" href="https://zxdcs.github.io/post/18/regular_expression/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Xiaodong&#39;s Homepage">
-  <meta property="og:url" content="https://zxdcs.github.io/post/17/python_skills/">
-  <meta property="og:title" content="Python技巧积累 | Xiaodong&#39;s Homepage">
+  <meta property="og:url" content="https://zxdcs.github.io/post/18/regular_expression/">
+  <meta property="og:title" content="正则表达式收集 | Xiaodong&#39;s Homepage">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-03-03T20:48:02&#43;08:00">
+  <meta property="article:published_time" content="2018-01-02T16:35:38&#43;08:00">
   
-  <meta property="article:modified_time" content="2017-03-03T20:48:02&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2018-01-02T16:35:38&#43;08:00">
   
 
-  <title>Python技巧积累 | Xiaodong&#39;s Homepage</title>
+  
+
+  <title>正则表达式收集 | Xiaodong&#39;s Homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -188,7 +188,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">Python技巧积累</h1>
+      <h1 itemprop="name">正则表达式收集</h1>
 
       
 
@@ -196,8 +196,8 @@
 
   <span class="article-date">
     
-    <time datetime="2017-03-03 20:48:02 &#43;0800 CST" itemprop="datePublished">
-      Mar 3, 2017
+    <time datetime="2018-01-02 16:35:38 &#43;0800 CST" itemprop="datePublished">
+      Jan 2, 2018
     </time>
   </span>
 
@@ -207,6 +207,9 @@
   
 
   
+  
+  
+  
 
   
   
@@ -214,35 +217,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Python%e6%8a%80%e5%b7%a7%e7%a7%af%e7%b4%af&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f17%2fpython_skills%2f"
+         href="https://twitter.com/intent/tweet?text=%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e6%94%b6%e9%9b%86&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f18%2fregular_expression%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fzxdcs.github.io%2fpost%2f17%2fpython_skills%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fzxdcs.github.io%2fpost%2f18%2fregular_expression%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f17%2fpython_skills%2f&amp;title=Python%e6%8a%80%e5%b7%a7%e7%a7%af%e7%b4%af"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fzxdcs.github.io%2fpost%2f18%2fregular_expression%2f&amp;title=%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e6%94%b6%e9%9b%86"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fzxdcs.github.io%2fpost%2f17%2fpython_skills%2f&amp;title=Python%e6%8a%80%e5%b7%a7%e7%a7%af%e7%b4%af"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fzxdcs.github.io%2fpost%2f18%2fregular_expression%2f&amp;title=%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e6%94%b6%e9%9b%86"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Python%e6%8a%80%e5%b7%a7%e7%a7%af%e7%b4%af&amp;body=https%3a%2f%2fzxdcs.github.io%2fpost%2f17%2fpython_skills%2f">
+         href="mailto:?subject=%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e6%94%b6%e9%9b%86&amp;body=https%3a%2f%2fzxdcs.github.io%2fpost%2f18%2fregular_expression%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -258,49 +261,18 @@
       <div class="article-style" itemprop="articleBody">
         
 
-<h2 id="获取当前用户的主目录">获取当前用户的主目录</h2>
+<h1 id="将文本中的单词和标点分开">将文本中的单词和标点分开</h1>
 
-<p>有三种方法：</p>
-
-<pre><code class="language-python">os.environ['HOME']
-os.path.expandvars('$HOME')
-os.path.expanduser('~')
+<pre><code class="language-python">re.findall(r&quot;\w+|[^\w\s]&quot;, text)
 </code></pre>
 
-<p>当需要读写主目录里的文件时，这样指定路径的代码可以做到系统无关（Win、Linux、Mac的主目录路径都不同）、用户无关（不同用户的用户名不一样）。</p>
-
-<h2 id="将非英文字母转换为英文字母">将非英文字母转换为英文字母</h2>
-
-<p>英文中有时会混有一些其它语言的单词，可能包含一些有重音标志的字母（如á）。为方便处理，可以将其转换为ASCII字符集中的字符，方法有两种：</p>
-
-<ul>
-<li>使用第三方模块<a href="https://pypi.python.org/pypi/Unidecode" target="_blank">Unidecode</a>，甚至可以处理中文，转换为拼音。</li>
-</ul>
-
-<pre><code class="language-python">import unidecode
-accented_string = 'Málaga'
-unaccented_string = unidecode.unidecode(accented_string)
-</code></pre>
-
-<ul>
-<li>使用内置的unicodedata模块</li>
-</ul>
-
-<pre><code class="language-python">import unicodedata
-accented_string = 'Málaga'
-unaccented_string = unicodedata.normalize('NFD', accented_string).encode('ascii', 'ignore')
-</code></pre>
+<p>输入：I&rsquo;m a string!<br />
+输出：[&lsquo;I&rsquo;, &ldquo;&lsquo;&rdquo;, &rsquo;m&rsquo;, &lsquo;a&rsquo;, &lsquo;string&rsquo;, &lsquo;!&rsquo;]</p>
 
       </div>
 
       
 
-
-<div class="article-tags">
-  
-  <a class="btn btn-primary btn-outline" href="/tags/python">Python</a>
-  
-</div>
 
 
 

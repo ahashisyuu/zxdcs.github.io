@@ -11,6 +11,24 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>正则表达式收集</title>
+      <link>https://zxdcs.github.io/post/18/regular_expression/</link>
+      <pubDate>Tue, 02 Jan 2018 16:35:38 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/post/18/regular_expression/</guid>
+      <description>
+
+&lt;h1 id=&#34;将文本中的单词和标点分开&#34;&gt;将文本中的单词和标点分开&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;re.findall(r&amp;quot;\w+|[^\w\s]&amp;quot;, text)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;输入：I&amp;rsquo;m a string!&lt;br /&gt;
+输出：[&amp;lsquo;I&amp;rsquo;, &amp;ldquo;&amp;lsquo;&amp;rdquo;, &amp;rsquo;m&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;lsquo;string&amp;rsquo;, &amp;lsquo;!&amp;rsquo;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>机器学习工具包收集</title>
       <link>https://zxdcs.github.io/post/17/ml_toolkit/</link>
       <pubDate>Thu, 09 Mar 2017 14:09:47 +0800</pubDate>
@@ -60,6 +78,28 @@ os.path.expanduser(&#39;~&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;当需要读写主目录里的文件时，这样指定路径的代码可以做到系统无关（Win、Linux、Mac的主目录路径都不同）、用户无关（不同用户的用户名不一样）。&lt;/p&gt;
+
+&lt;h2 id=&#34;将非英文字母转换为英文字母&#34;&gt;将非英文字母转换为英文字母&lt;/h2&gt;
+
+&lt;p&gt;英文中有时会混有一些其它语言的单词，可能包含一些有重音标志的字母（如á）。为方便处理，可以将其转换为ASCII字符集中的字符，方法有两种：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用第三方模块&lt;a href=&#34;https://pypi.python.org/pypi/Unidecode&#34; target=&#34;_blank&#34;&gt;Unidecode&lt;/a&gt;，甚至可以处理中文，转换为拼音。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import unidecode
+accented_string = &#39;Málaga&#39;
+unaccented_string = unidecode.unidecode(accented_string)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用内置的unicodedata模块&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import unicodedata
+accented_string = &#39;Málaga&#39;
+unaccented_string = unicodedata.normalize(&#39;NFD&#39;, accented_string).encode(&#39;ascii&#39;, &#39;ignore&#39;)
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

@@ -11,6 +11,43 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Unpaired Sentiment-to-Sentiment Translation Using Cycled Reinforcement Learning</title>
+      <link>https://zxdcs.github.io/publication/sentiment_translation/</link>
+      <pubDate>Thu, 24 May 2018 17:02:56 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/sentiment_translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TensorFlow C&#43;&#43;</title>
+      <link>https://zxdcs.github.io/post/18/tensorflow_cpp/</link>
+      <pubDate>Thu, 24 May 2018 10:25:53 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/post/18/tensorflow_cpp/</guid>
+      <description>&lt;p&gt;参考了以下博客，以后再做整理。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/rockingdingo/article/details/75452711&#34; target=&#34;_blank&#34;&gt;https://blog.csdn.net/rockingdingo/article/details/75452711&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/fireflychh/article/details/78321422&#34; target=&#34;_blank&#34;&gt;https://blog.csdn.net/fireflychh/article/details/78321422&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mathmach.com/2017/10/09/tensorflow_c++_api_prediction_first/&#34; target=&#34;_blank&#34;&gt;http://mathmach.com/2017/10/09/tensorflow_c++_api_prediction_first/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mathmach.com/2017/10/11/tensorflow_c++_api_prediction_second/&#34; target=&#34;_blank&#34;&gt;http://mathmach.com/2017/10/11/tensorflow_c++_api_prediction_second/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/30985013&#34; target=&#34;_blank&#34;&gt;https://zhuanlan.zhihu.com/p/30985013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/1006107&#34; target=&#34;_blank&#34;&gt;https://cloud.tencent.com/developer/article/1006107&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Duplicate Question Identification by Integrating FrameNet with Neural Networks</title>
+      <link>https://zxdcs.github.io/publication/duplicate_question/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/duplicate_question/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>调参技巧</title>
       <link>https://zxdcs.github.io/post/18/tune_parameter/</link>
       <pubDate>Wed, 03 Jan 2018 10:25:53 +0800</pubDate>
@@ -47,15 +84,6 @@
 &lt;p&gt;输入：I&amp;rsquo;m a string!&lt;br /&gt;
 输出：[&amp;lsquo;I&amp;rsquo;, &amp;ldquo;&amp;lsquo;&amp;rdquo;, &amp;rsquo;m&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;lsquo;string&amp;rsquo;, &amp;lsquo;!&amp;rsquo;]&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Duplicate Question Identification by Integrating FrameNet with Neural Networks</title>
-      <link>https://zxdcs.github.io/publication/duplicate_question/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zxdcs.github.io/publication/duplicate_question/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -328,24 +356,6 @@ ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://zxdcs.github.io/publication/discourse_relation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Negative Emotion Recognition in Spoken Dialogs</title>
-      <link>https://zxdcs.github.io/publication/negative_emotion/</link>
-      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://zxdcs.github.io/publication/negative_emotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Fast and Effective Method for Clustering Large-Scale Chinese Question Dataset</title>
-      <link>https://zxdcs.github.io/publication/clustering_question/</link>
-      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zxdcs.github.io/publication/clustering_question/</guid>
       <description></description>
     </item>
     

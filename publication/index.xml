@@ -11,9 +11,18 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Unpaired Sentiment-to-Sentiment Translation Using Cycled Reinforcement Learning</title>
+      <link>https://zxdcs.github.io/publication/sentiment_translation/</link>
+      <pubDate>Thu, 24 May 2018 17:02:56 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/sentiment_translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Duplicate Question Identification by Integrating FrameNet with Neural Networks</title>
       <link>https://zxdcs.github.io/publication/duplicate_question/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://zxdcs.github.io/publication/duplicate_question/</guid>
       <description></description>

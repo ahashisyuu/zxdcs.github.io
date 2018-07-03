@@ -11,6 +11,33 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Learning Dialogue History for Spoken Language Understanding</title>
+      <link>https://zxdcs.github.io/publication/dialogue_slu/</link>
+      <pubDate>Tue, 03 Jul 2018 21:40:52 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/dialogue_slu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neural Question Generation System Based on Knowledge Base</title>
+      <link>https://zxdcs.github.io/publication/kbqg/</link>
+      <pubDate>Tue, 03 Jul 2018 21:36:47 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/kbqg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neural Question Answering Model Based on Semi-Structured Tables</title>
+      <link>https://zxdcs.github.io/publication/table_qa/</link>
+      <pubDate>Tue, 03 Jul 2018 21:27:24 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/table_qa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unpaired Sentiment-to-Sentiment Translation Using Cycled Reinforcement Learning</title>
       <link>https://zxdcs.github.io/publication/sentiment_translation/</link>
       <pubDate>Thu, 24 May 2018 17:02:56 +0800</pubDate>
@@ -330,33 +357,6 @@ ln -s /usr/local/lib/libcrfpp.so.0 /usr/lib/libcrfpp.so.0
 
 &lt;p&gt;供货商把机器运过来后，自己装了系统和深度学习的各种环境。但不幸的是机器十分不稳定，经常死机或者是程序跑着跑着崩掉，报总线错误（Bad TLP PCIe Bus Errors），困扰了好几天。最后在&lt;a href=&#34;https://forums.geforce.com/default/topic/957456/geforce-drivers/gtx-1080-throwing-bad-tlp-pcie-bus-errors/post/4969345/#4969345&#34; target=&#34;_blank&#34;&gt;这个帖子&lt;/a&gt;的24楼找到了解决方案，貌似是这块主板的总线电源管理有问题，按照这个改了之后机器就稳定了。&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Bidirectional Recurrent Convolutional Neural Network for Relation Classification</title>
-      <link>https://zxdcs.github.io/publication/entity_relation/</link>
-      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zxdcs.github.io/publication/entity_relation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding</title>
-      <link>https://zxdcs.github.io/publication/spoken_language_understanding/</link>
-      <pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zxdcs.github.io/publication/spoken_language_understanding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Implicit Discourse Relation Classification via Multi-Task Neural Networks</title>
-      <link>https://zxdcs.github.io/publication/discourse_relation/</link>
-      <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zxdcs.github.io/publication/discourse_relation/</guid>
-      <description></description>
     </item>
     
   </channel>

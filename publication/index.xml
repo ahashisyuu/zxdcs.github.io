@@ -11,6 +11,33 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Learning Dialogue History for Spoken Language Understanding</title>
+      <link>https://zxdcs.github.io/publication/dialogue_slu/</link>
+      <pubDate>Tue, 03 Jul 2018 21:40:52 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/dialogue_slu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neural Question Generation System Based on Knowledge Base</title>
+      <link>https://zxdcs.github.io/publication/kbqg/</link>
+      <pubDate>Tue, 03 Jul 2018 21:36:47 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/kbqg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neural Question Answering Model Based on Semi-Structured Tables</title>
+      <link>https://zxdcs.github.io/publication/table_qa/</link>
+      <pubDate>Tue, 03 Jul 2018 21:27:24 +0800</pubDate>
+      
+      <guid>https://zxdcs.github.io/publication/table_qa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unpaired Sentiment-to-Sentiment Translation Using Cycled Reinforcement Learning</title>
       <link>https://zxdcs.github.io/publication/sentiment_translation/</link>
       <pubDate>Thu, 24 May 2018 17:02:56 +0800</pubDate>
